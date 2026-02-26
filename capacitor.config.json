@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.myapp",
+  "appName": "My App",
+  "webDir": "dist",
+  "ios": {
+    "contentInset": "never",
+    "allowsLinkPreview": false,
+    "scheme": "myapp"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

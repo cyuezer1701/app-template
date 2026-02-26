@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#f0ede6" />
+
+    <title>My App</title>
+    <meta name="description" content="A cross-platform web app template." />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen u-flex u-flex-col u-items-center u-justify-center u-gap-4">
+      <h1 style="font-size: 32px; font-weight: 900;">My App</h1>
+      <p style="color: var(--text-secondary);">Cross-platform template</p>
+      <button class="btn btn-primary" id="btn-start">Get Started</button>
+    </div>
+
+    <!-- Main Screen -->
+    <div id="main-screen" class="screen hidden">
+      <h2>Main Screen</h2>
+      <p>Your app content goes here.</p>
+    </div>
+
+    <!-- Entry point -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
