@@ -15,8 +15,7 @@ import { initEventHandlers } from './ui/event-handlers.js';
 import { notify } from './core/utils.js';
 
 // Capacitor platform detection
-const isNative =
-  typeof window.Capacitor !== 'undefined' && window.Capacitor.isNativePlatform();
+const isNative = typeof window.Capacitor !== 'undefined' && window.Capacitor.isNativePlatform();
 const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
 
 async function init() {

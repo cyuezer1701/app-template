@@ -12,18 +12,42 @@
 
 /* ==================== UTILITY CLASSES ==================== */
 
-.u-flex { display: flex; }
-.u-flex-col { flex-direction: column; }
-.u-items-center { align-items: center; }
-.u-justify-center { justify-content: center; }
-.u-text-center { text-align: center; }
-.u-font-bold { font-weight: 700; }
-.u-w-full { width: 100%; }
-.u-gap-2 { gap: 8px; }
-.u-gap-3 { gap: 12px; }
-.u-gap-4 { gap: 16px; }
-.u-mb-4 { margin-bottom: 16px; }
-.u-mb-6 { margin-bottom: 24px; }
+.u-flex {
+  display: flex;
+}
+.u-flex-col {
+  flex-direction: column;
+}
+.u-items-center {
+  align-items: center;
+}
+.u-justify-center {
+  justify-content: center;
+}
+.u-text-center {
+  text-align: center;
+}
+.u-font-bold {
+  font-weight: 700;
+}
+.u-w-full {
+  width: 100%;
+}
+.u-gap-2 {
+  gap: 8px;
+}
+.u-gap-3 {
+  gap: 12px;
+}
+.u-gap-4 {
+  gap: 16px;
+}
+.u-mb-4 {
+  margin-bottom: 16px;
+}
+.u-mb-6 {
+  margin-bottom: 24px;
+}
 
 /* ==================== RESPONSIVE ==================== */
 
